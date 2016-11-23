@@ -1,0 +1,190 @@
+body {
+	background-image: url("img/linux.jpg");
+	background-attachment: fixed;
+}
+
+#suse {
+	margin: auto;
+	width: 900px;
+	
+}
+#content{
+	width: 900px;
+	background-color: white;
+}
+
+#title h1 {
+	float: left;
+	text-align: center;
+	margin: auto;
+	font-family: 'Baloo Bhaina', cursive;
+	color: green;
+	/*background-color: white;*/
+	height: 50px;
+	padding-left: 10px;
+}
+#navigasi li{
+	float: left;
+	margin :auto;
+	/*background-color: white;*/
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+#navigasi ul{
+	list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    height: 50px;
+    font-family: 'Baloo Bhaina', cursive;
+    margin-right: 20px;
+}
+
+#navigasi li a{
+	display: block;
+    color: green;
+    border: solid;
+    border-color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;   
+}
+
+#navigasi li a:hover{
+	color: red;
+}
+
+#logo {
+	margin-top: 10px;
+	clear: left;
+	
+}
+#logo img{
+	width: 100%;
+}
+#socialmedia {
+	margin-top: 10px;
+	float: right;
+	border-style: groove;
+	background-color: white;
+	padding-right: 10px;
+}
+#socialmedia a{
+	margin-left: 10px;
+}
+#socialmedia a i {
+	color: green;
+}
+#socialmedia a i:hover{
+	color: red;
+}
+
+#featured{
+	margin-top: 20px;
+	font-family: 'Baloo Bhaina', cursive;
+}
+#featured p{
+	text-align: justify;
+	color: #008744;
+
+}
+#featured p a{
+	border-bottom: 5px solid red;
+	background-color: none;
+	color: green;
+}
+
+#featured h2{
+	border: solid;
+	margin-top: 50px;
+	text-align: center;
+	background-color: white;
+}
+#featured a:hover{
+	color: red;
+}
+
+#articles{
+	font-family: 'Baloo Bhaina', cursive;
+	color: #008744;
+	display: inline-block;
+	width: 50%;
+	float: left;
+
+}
+#articles p {
+	text-align: justify;
+}
+#articles h2{
+	bottom-border: solid;
+	border-color: black;
+	
+
+}
+#articles p a{
+	border-bottom: 5px solid red;
+	background-color: none;
+	color: green;
+	}
+#articles a:hover{
+	color: red;
+}
+#sidebar{
+	display: inline-block;
+	font-family: 'Baloo Bhaina' , cursive;
+	width: 15%;
+	margin-left: 70px;
+	margin-top: 30px;
+}
+#sidebar ul{
+	list-style: url("img/osuse1.png");
+}
+#sidebar li {
+	margin-top: -10px;
+	margin: auto;
+}
+#sidebar h3{
+	text-align: center;
+	margin: auto;
+	color: #008744;
+	border-bottom: 5px solid red;
+}
+#sidebar li a {
+	text-decoration: none;
+	color: green;
+}
+#sidebar li a:hover{
+	color: red;
+}
+#apakek{
+	width: 90%;
+	clear: left;
+	margin: auto;
+	font-family: 'Ranga', cursive;
+	font-size: 20px;
+	color: #008744;
+	margin-top: 30px;
+	border-top: solid; 
+}
+
+
+#fs img{
+	width: 80px;
+	margin-left: 40px;
+}
+#fs {
+	margin: 10px;
+	width: 20%;
+	display: inline-block;
+}
+#fs h3{
+	text-align: center;
+}
+#fs p{
+	text-align: justify;
+}
+#footer{
+	font-family: 'Baloo Bhaina' , cursive;
+	color: #008744;
+}
